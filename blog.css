@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;*/
+
+/* Aqui empieza los estilos header*/
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header .icons span{
+    color: white;
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+}
+
+.nav-logo-container{
+    margin-left: 50px;
+}
+
+.nav-logo-container img{
+    width: 220px;
+    
+}
+
+.profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    height: 70px;
+}
+
+.profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Termina la hoja de estilos del header*/
+
+/* Aqui empieza la hoja de estilos del banner news*/
+.container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    width: auto;
+    height: 400px;
+    background-color: #C8C7CE;
+}
+
+.container img{
+    width: 600px;
+    height: 320px;
+}
+
+h3 {
+    margin-left: 40px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+button {
+    background-color: #C8C7CE;
+    border: 1px solid #47cfac;
+    width: 80px;
+    height: 50px;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+
+button a {
+    font-family: 'Roboto Slab', serif;
+}
+/* Aqui termina la hoja de estilos del banner news*/
+
+.midterm p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin: 0px;
+    border-color: #C8C7CE;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* Aqui empieza la hoja de estilos de los posts*/
+.publications {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 900px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+.publications .items img{
+    width: 365px;
+    height: 200px;
+}
+
+.items h3{
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.items p{
+    font-size: 16px;
+}
+
+.items button {
+    background-color: white;
+    border: 1px solid #47cfac;
+    width: 80px;
+    height: 50px;
+}
+/* Aqui termina la hoja de estilos de los posts*/
+
+/* aqui empieza el footer*/
+footer{
+    display: grid;
+    grid-template-rows: 20px;
+    height: 80px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
+
+footer .blank{
+    background-color:#47cfac;
+    height: 20px;
+}
