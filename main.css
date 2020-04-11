@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;*/
+
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +23,7 @@ a {
 
 header{
     width: 100%;
-    height: 140px;
+    height: 120px;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
@@ -46,7 +53,7 @@ header .icons span{
 .nav-bar{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 90px;
+    height: 70px;
 }
 
 .nav-logo-container{
@@ -55,7 +62,7 @@ header .icons span{
 
 .nav-logo-container img{
     width: 220px;
-    margin-top: 10px;
+    
 }
 
 .profile-link{
@@ -63,36 +70,44 @@ header .icons span{
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
+    height: 70px;
 }
 
 .profile-link a{
-    color: white;
+    color: black;
     border-bottom: 1px solid black;
-}
-
-body {
-    background-image: url('../Assets/Cover.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-h1{
-    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    background-image: url('../Assets/Cover.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
 
+h1{
+    color: white;
+    margin-top: 100px;
+    font-family: 'Roboto Mono', monospace;
+}
 
 input {
     background-color: #47cfac;
     border: 1px solid black;
     height: 50px;
     width: 90px;
-    margin-left: 210px;
+    margin-left: 270px;
+    margin-bottom: 50px;
+}
+
+.main-title{
+    display: grid;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
 }
